@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header id="header">
+        <nav class="navbar">
+            <a href="">
+                <h2>My Logo</h2></a>
+            
+        <div class="nav-desktop">
+            <ul class="menu-desktop">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+            <img class="hamb-bu" id="hamb-bu" src="images/Hamburger_button.svg" alt="menu button">
+        </nav>
+        
+    </header>
+
+     <!-- contact section -->
+
+    <section id="headline">
+        <div class="intro-portfolio">
+        <h1>I’m Mariane Glad to see you!</h1>
+        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work
+            and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
+        </p>
+        <a class="connect" href="#">LET’S CONNECT</a>
+        <ul class="social-links">
+            <li><a href="#"><img src="images/Twitter.svg" alt="Twitter"></a></li>
+            <li><a href="#"><img src="images/Linkedin.svg" alt="LinkedIn"></a></li>
+            <li><a href="#"><img src="images/Medium.svg" alt="Medium"></a></li>
+            <li><a href="#"><img src="images/Github.svg" alt="Github"></a></li>
+            <li><a href="#"><img src="images/Angel List.svg" alt="Angel List"></a></li>
+        </ul>
+    </div>
+    </section>
+
+    <!-- Mobile Menu -->
+<div class="mobile-menu" id="mobile-menu">
+    <img src="images/cross-Icon.svg" class="cross-button" id="cross-button" alt="cross">
+    <ul>
+        <li><a class="navigation" href="#work">Portfolio</a></li>
+        <li><a class="navigation" href="#about-section">About</a></li>
+        <li><a class="navigation" href="#contact-me">Contact</a></li>
+    </ul>
+</div>
+
+    <!--Work section-->
+    <section id="work">
+        
+    <!--Portfolio Cards- 1-4-->
+    </section>
+
+   <!--Popup-Details -1-4-->
+
+
+
+
+    <!-- About section -->
+    <section id="about-section">
+        <div class="about" class="display">
+            <h1>About Myself</h1>
+            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of
+                my work and experience! If you like what you see and have a project you need coded, don’t hestiate to
+                contact me.</p>
+            <a href="#">LET’S CONNECT</a>
+            <ul class="social-links-2">
+                <li><a href="#"><img src="images/Github.svg" alt="Github"></a></li>
+                <li><a href="#"><img src="images/Linkedin.svg" alt="LinkedIn"></a></li>
+                <li><a href="#"><img src="images/Angel List.svg" alt="Angel List"></a></li>
+                <li><a href="#"><img src="images/Twitter.svg" alt="Twitter"></a></li>
+                <li><a href="#"><img src="images/Medium.svg" alt="Medium"></a></li>
+            </ul>
+            <div>
+                <button class="btn" type="button" class="default_btn">Get my resume</button>
+            </div>
+            </div>
+
+            <ul class="language">
+                <li>
+                    <div class="title border-none">
+                        <h5>Languages</h5>
+                        <img src="images/Dropdown-down arrow.svg" alt="dropdown-arrow icon">
+                    </div>
+                    <ul class="classification-2">
+                        <li><a href="#"><img src="images/js-logo.svg" alt="javascript"></a>JavaScript</li>
+                        <li><a href="#"><img src="images/html-logo.svg" alt="html"></a>HTML</li>
+                        <li><a href="#"><img src="images/css-logo.svg" alt="css"></a>CSS</li>
+                    </ul>
+                </li>
+
+                <li class="title">
+                    <h5>Frameworks</h5>
+                    <img src="images/Side arrow.svg" alt="side-arrow">
+                </li>
+                <li class="title">
+                    <h5>Skills</h5>
+                    <img src="images/Side arrow.svg" alt="side-arrow">
+                </li>
+        </div>
+    
+    </section>
+
+    <!-- contact section -->
+    <section class="contact" id="contact-me">
+        <div class="container">
+            <div class="wrapper">
+            <h2 class="title">Contact me</h2>
+            <p class="contact-descrip">If you have an application you are interested in developing, a feature
+                that you need built or a project that needs coding. I’d love to help
+                with it</p>
+            <form class="slect-form" action="https://formspree.io/f/mdojplzn" method="POST" id="form">
+                <fieldset class="input-field">
+                    <input class="input-form" name="name" type="text" placeholder="Your Name" maxlength="30" required />
+                    <input class="input-form" name="email" type="email" placeholder="example@me.com" required />
+                    <textarea class="text-form" name="message" placeholder="Write your message here" maxlength="500"
+                        required></textarea>
+                        <span id="error" class="error" aria-live="polite"></span>
+                        <div class="sub-butn-center">
+                        <button type="submit" class="submit-button">Get It Touch</button>    
+                        </div>
+                    
+                </fieldset>
+            </form>
+        </div>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
