@@ -67,6 +67,12 @@ header .navbar {
   text-decoration: none;
 }
 
+.btn a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
 header .navbar a {
   text-decoration: none;
   color: #6070ff;
@@ -182,12 +188,6 @@ header {
   background-color: #fff;
   cursor: pointer;
   gap: 10px;
-}
-
-.btn a {
-  text-decoration: none;
-  color: inherit;
-  width: 100%;
 }
 
 .btn:hover {

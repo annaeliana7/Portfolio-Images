@@ -124,10 +124,10 @@ function showDetail(project) {
   buttonLive.classList.add('btn');
   buttonLive.type = 'button';
 
-  const txtBtnLive  = document.createElement('a');
+  const txtBtnLive = document.createElement('a');
   txtBtnLive.href = project.link.live;
-  txtBtnLive.target = "_blank";
-  txtBtnLive.textContent = "See Live";
+  txtBtnLive.target = '_blank';
+  txtBtnLive.textContent = 'See Live';
 
   const imgBtnLive = document.createElement('img');
   imgBtnLive.src = 'images/live-Icon.svg';
@@ -139,10 +139,10 @@ function showDetail(project) {
   buttonSource.classList.add('btn');
   buttonSource.type = 'button';
 
-  const txtBtnSource  = document.createElement('a');
+  const txtBtnSource = document.createElement('a');
   txtBtnSource.href = project.link.source;
-  txtBtnSource.target = "_blank";
-  txtBtnSource.textContent = "See Source";
+  txtBtnSource.target = '_blank';
+  txtBtnSource.textContent = 'See Source';
 
   const imgBtnSource = document.createElement('img');
   imgBtnSource.src = 'images/purple-github in button.svg';
