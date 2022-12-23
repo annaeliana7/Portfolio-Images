@@ -181,6 +181,13 @@ header {
   padding: 12px;
   background-color: #fff;
   cursor: pointer;
+  gap: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
 }
 
 .btn:hover {
@@ -715,7 +722,6 @@ header {
 
 .popup-wrapper .portfolio-snapshot .detail-footer .btn {
   margin-top: 20px;
-  width: 45%;
   height: 48px;
   display: inline-flex;
   margin-right: 15px;

@@ -124,8 +124,10 @@ function showDetail(project) {
   buttonLive.classList.add('btn');
   buttonLive.type = 'button';
 
-  const txtBtnLive = document.createElement('p');
-  txtBtnLive.textContent = 'See Live';
+  const txtBtnLive  = document.createElement('a');
+  txtBtnLive.href = project.link.live;
+  txtBtnLive.target = "_blank";
+  txtBtnLive.textContent = "See Live";
 
   const imgBtnLive = document.createElement('img');
   imgBtnLive.src = 'images/live-Icon.svg';
@@ -137,8 +139,10 @@ function showDetail(project) {
   buttonSource.classList.add('btn');
   buttonSource.type = 'button';
 
-  const txtBtnSource = document.createElement('p');
-  txtBtnSource.textContent = 'See Source';
+  const txtBtnSource  = document.createElement('a');
+  txtBtnSource.href = project.link.source;
+  txtBtnSource.target = "_blank";
+  txtBtnSource.textContent = "See Source";
 
   const imgBtnSource = document.createElement('img');
   imgBtnSource.src = 'images/purple-github in button.svg';
@@ -165,16 +169,16 @@ function showDetail(project) {
 /* Update list of project dynamicaly */
 const listProject = [
   {
-    name: 'Tonic', description: 'A daily section of privately personalized reads; no accounts or sign-ups required.', image: 'images/portfolio-snapshot-1.svg', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Portfolio', description: 'This project is a profile to showcase different projects for a software engineer. I have added the linters, HTML, and CSS and used a FIGMA template.', image: 'images/1. Portfolio-Figma.png', details: ['STARBRIGHT', 'Front End Dev', '2022'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://annaeliana7.github.io/Portfolio/', source: 'https://github.com/annaeliana7/Portfolio' },
   },
   {
-    name: 'Multi-Post Stories', description: 'A daily section of privately personalized reads; no accounts or sign-ups required.', image: 'images/portfolio- snapshot-2.svg', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Awesome-Books', description: 'This is an Awesome Book project. In this project, I made a form and added functionality of delete and add books with plain javascript HTML & CSS JavaScript.', image: 'images/2. Awesome Books-Display.png', details: ['STARBRIGHT', 'Front End Dev', '2022'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://annaeliana7.github.io/Awesome-Books/', source: 'https://github.com/annaeliana7/Awesome-Books' },
   },
   {
-    name: 'Tonic', description: 'A daily section of privately personalized reads; no accounts or sign-ups required.', image: 'images/portfolio- snapshoot-3.svg', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'Yeshua-Event', description: 'This is my first Capstone Project. It is a simple but effective and responsive (mobile first) Capstone Project #1. I use HTML and CSS to make the pages responsive and JavaScript to make the buttons functional. The theme of this project is the Event of Salvation Through Yeshua, spreading the salvation of Jesus Christ, the One and Only Messiah.', image: 'images/3. Capstone Project.png', details: ['STARBRIGHT', 'Front End Dev', '2022'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://annaeliana7.github.io/Capstone-Jesus-Movement/', source: 'https://github.com/annaeliana7/Capstone-Jesus-Movement' },
   },
   {
-    name: 'Multi-Post Stories', description: 'A daily section of privately personalized reads; no accounts or sign-ups required.', image: 'images/portfolio-snapshoot-4.svg', details: ['CANOPY', 'Back End Dev', '2015'], technologies: ['html', 'css', 'javaScript'], link: { live: '', source: '' },
+    name: 'To-Do List', description: 'Minimalist To Do List Project is a website that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. It is inspired by the minimalist website.', image: 'images/4. ToDo List.png', details: ['STARBRIGHT', 'Front End Dev', '2022'], technologies: ['html', 'css', 'javaScript'], link: { live: 'https://annaeliana7.github.io/ToDo-List/dist/', source: 'https://github.com/annaeliana7/ToDo-List' },
   },
 ];
 
