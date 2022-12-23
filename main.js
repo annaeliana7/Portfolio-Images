@@ -18,8 +18,8 @@ window.onload = function () {
     openMenu();
   });
 
-  $('.mobile-menu li a').on('click', () => {
-    $('#cross-button').click();
+  '$'('.mobile-menu li a').on('click', () => {
+    '$'('#cross-button').click();
   });
 };
 
