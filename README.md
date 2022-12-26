@@ -1,13 +1,13 @@
 <a name="readme-top"></a>
-
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="kefi-Unearthed-5.png" alt="logo" width="280"  height="auto" />
-    <h3><b>Anna Petras for King Yeshua - Kefi Unearthed</b></h3>
+    <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
   <br/>
-
+💜
   <h3><b>Personal README Template</b></h3>
-
+  <br/>
+  
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -136,7 +136,8 @@ Give a ⭐️ if you like this project!
 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-HaShem (Abba) and Yeshua, I love you! 💜 Thank you!
+💜 HaShem (Abba) and Yeshua, I LOVE YOU! 💜 Thank you!
+I HONOR + GLORIFY YOU FOREVER ... 💜
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,3 +148,19 @@ HaShem (Abba) and Yeshua, I love you! 💜 Thank you!
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br>
+
+<!-- Author's message -->
+
+<div align="center">
+    <img src="kefi-Unearthed-5.png" alt="logo" width="250"  height="auto" />
+    <h3><b>Anna Petras for KING YESHUA - Kefi Unearthed</b></h3>
+💜
+<br>
+💜
+<br>
+💜
+<br>
+PETRAS FAMILY
+
